@@ -1,0 +1,116 @@
+body {
+  background-color: lightpink;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100vh; */
+  overflow: hidden;
+}
+.image {
+  background-image: url(/assets/images/background-pattern-desktop.svg);
+  width: 100%;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  background-color: white;
+  position: relative;
+  bottom: 100px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.heading {
+  margin: 0;
+}
+
+.main-star {
+  background-image: url(/assets/images/icon-plus.svg);
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: cover;
+}
+
+.heading-star {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.minus {
+  background-image: url(/assets/images/icon-minus.svg);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+.question-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plus1 {
+  background-image: url(/assets/images/icon-plus.svg);
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+}
+.plus2 {
+  background-image: url(/assets/images/icon-plus.svg);
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+}
+.plus3 {
+  background-image: url(/assets/images/icon-plus.svg);
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+hr {
+  margin-left: 0;
+  margin-right: 0;
+}
+.font {
+  font-weight: 700;
+}
+.havor:hover {
+  cursor: pointer;
+  color: blue;
+}
+.all {
+  margin-bottom: 35px;
+}
